@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Parking 01",
+    "slug": "parking-01-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "vn.parkhub.baove"
+    },
+    "android": {
+      "package": "vn.parkhub.baove",
+      "adaptiveIcon": {
+        "backgroundColor": "#10251f"
+      }
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Cho phép Parking 01 sử dụng camera để quét mã QR trên vé xe.",
+          "recordAudioAndroid": false,
+          "barcodeScannerEnabled": true
+        }
+      ],
+      "expo-secure-store",
+      "expo-font",
+      "expo-status-bar"
+    ]
+  }
+}
